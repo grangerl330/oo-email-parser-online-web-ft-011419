@@ -11,6 +11,5 @@ class EmailParser
     
   def parse
     emails.split(/[,| ]/)
-    emails_array
   end 
 end 
